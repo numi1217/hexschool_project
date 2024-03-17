@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset*/
+
+.clearfix{clear: both;}
+
+.wrap{
+    width: auto;
+    margin: 0 auto;
+}
+
+.topmenu{background: #F6F6F8;}
+
+.topmenu ul{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.topmenu li{font-size: 16px;}
+
+.follow{
+    padding-left: 12px;
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+.fans{
+    text-decoration: none;
+    padding-right: 12px;
+    border-right: 1px solid #CCCCCC;
+    color: #4267B2;
+}
+
+.menu{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menulist{
+    display: flex;
+    width: 244px;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+
+.menulist a{
+    display: block;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.home{
+    border-bottom: 4px solid #00CC99;
+}
+
+.banner{position: relative;}
+
+.banner img{margin: 0 auto;}
+
+.box1{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box1 h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 25%;
+}
+
+.courses{
+    margin-top: 40px;
+    margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.courseItem{
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.16);
+	width: 310px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.courseItem h2{
+	text-align: center;
+	font-size: 20px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.courseItem p, .courseItem ul{line-height: 150%;}
+
+table{
+    text-align: left;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+table th{
+    padding-right: 110px;
+    line-height: 225%;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.first{font-weight: bold;}
+
+.formbox{
+    margin: 0 auto;
+    padding-top: 42px;
+    background: linear-gradient(to bottom, #E4FFF8, #A2DDCE);
+}
+
+.formbox h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.info, .comment {
+    /*border: 1px solid #000;*/
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+    font-size: 16px;
+}
+
+.info input{
+    width: 350px;
+    height: 38px;
+}
+
+.submit{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.submit input{
+    width: 160px;
+    height: 40px;
+    background: #00251A;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact{line-height: 150%;}
